@@ -5,6 +5,7 @@ import { DASHBOARD_CARDS } from '@/constants/dashboard';
 import { BarDuoToneBlue } from '@/icons';
 import React from 'react';
 import { motion } from 'framer-motion';
+import Chart from './_components/chart';
 // import Chart from './_components/metrics'
 // import MetricsCard from './_components/metrics/metrics-card'
 
@@ -66,7 +67,7 @@ const Page = (props: Props) => {
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
           >
-            {/* <Chart /> */}
+            <Chart />
           </motion.div>
           <motion.div
             className="lg:w-6/12 cursor-pointer"

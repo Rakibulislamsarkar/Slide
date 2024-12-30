@@ -71,8 +71,9 @@ export default function Home() {
               meaningful connections.
             </p>
             <div className="flex gap-4 justify-center">
-              <Button className="rounded-full px-8 py-5">
-                Get Started <ArrowUpRight className="ml-2" size={18} />
+              <Button className="rounded-full px-8 py-5" asChild>
+                <Link href='/dashboard'>
+                Get Started <ArrowUpRight className="ml-2" size={18} /></Link>
               </Button>
               <Button variant="link" className="">
                 View Research
